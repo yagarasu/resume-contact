@@ -1,0 +1,8 @@
+index:
+   path: /
+   controller: App\Controller\WelcomeController::index
+
+contact_send:
+  path: /contact
+  methods: [POST]
+  controller: App\Controller\ContactController:send
