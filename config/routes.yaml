@@ -5,4 +5,4 @@ index:
 contact_send:
   path: /contact
   methods: [POST]
-  controller: App\Controller\ContactController:send
+  controller: App\Controller\ContactController::send
